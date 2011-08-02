@@ -11,11 +11,24 @@ public class Rectangle
         this.width = width;
     }
 
+
+    public double Area()
+    {
+        return length * width;
+
+    }
+
     public double Perimeter()
     {
         return 2 * length + 2 * width;
 
     }
+
+    public static Rectangle CreateSquare(int length)
+    {
+        return new Rectangle(length,length);
+    }
+
 
 
 
