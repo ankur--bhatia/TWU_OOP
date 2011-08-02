@@ -72,10 +72,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Shape.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Shape.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Geometry/Shape.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="31" selection-start="80" selection-end="80" vertical-scroll-proportion="0.0">
+            <state line="4" column="33" selection-start="95" selection-end="95" vertical-scroll-proportion="0.16901408">
               <folding />
             </state>
           </provider>
@@ -93,7 +93,25 @@
       <file leaf-file-name="Circle.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Geometry/Circle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="34" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0">
+            <state line="12" column="35" selection-start="252" selection-end="252" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Ellipse.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Geometry/Ellipse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="30" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EllipseTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/EllipseTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="13" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -102,7 +120,7 @@
       <file leaf-file-name="CircleTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/CircleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="20" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0">
+            <state line="14" column="9" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -113,8 +131,10 @@
       <file leaf-file-name="Measurement.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Geometry/Measurement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="64" selection-start="889" selection-end="889" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="25" column="26" selection-start="651" selection-end="651" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -122,7 +142,7 @@
       <file leaf-file-name="MeasurementTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/MeasurementTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="53" selection-start="585" selection-end="585" vertical-scroll-proportion="0.0">
+            <state line="24" column="13" selection-start="661" selection-end="661" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -146,17 +166,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RoundToTwoDecimalPlacesTest.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/RoundToTwoDecimalPlacesTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="39" selection-start="375" selection-end="375" vertical-scroll-proportion="0.5070422">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -167,9 +176,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/Geometry/UnitsTest.java" />
-        <option value="$PROJECT_DIR$/src/test/UnitsTest.java" />
-        <option value="$PROJECT_DIR$/src/Geometry/Units.java" />
         <option value="$PROJECT_DIR$/src/Geometry/RoundOffNumber.java" />
         <option value="$PROJECT_DIR$/src/Geometry/RoundTwoDecimalPlaces.java" />
         <option value="$PROJECT_DIR$/src/Geometry/RoundedDecimal.java" />
@@ -183,6 +189,9 @@
         <option value="$PROJECT_DIR$/src/test/CircleTest.java" />
         <option value="$PROJECT_DIR$/src/Geometry/Measurement.java" />
         <option value="$PROJECT_DIR$/src/test/MeasurementTest.java" />
+        <option value="$PROJECT_DIR$/src/Geometry/Eclipse.java" />
+        <option value="$PROJECT_DIR$/src/test/EllipseTest.java" />
+        <option value="$PROJECT_DIR$/src/Geometry/Ellipse.java" />
       </list>
     </option>
   </component>
@@ -738,6 +747,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/RoundToTwoDecimalPlacesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/RectangleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="31" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/CircleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="9" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Geometry/RoundToTwoDecimalPlaces.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="29" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0">
@@ -745,10 +779,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Geometry/Shape.java">
+    <entry file="file://$PROJECT_DIR$/src/test/MeasurementTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="31" selection-start="80" selection-end="80" vertical-scroll-proportion="0.0">
+        <state line="24" column="13" selection-start="661" selection-end="661" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Geometry/Measurement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="26" selection-start="651" selection-end="651" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -761,47 +804,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Geometry/Circle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="34" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0">
+        <state line="12" column="35" selection-start="252" selection-end="252" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Geometry/Measurement.java">
+    <entry file="file://$PROJECT_DIR$/src/test/EllipseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="64" selection-start="889" selection-end="889" vertical-scroll-proportion="0.0">
+        <state line="4" column="13" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/CircleTest.java">
+    <entry file="file://$PROJECT_DIR$/src/Geometry/Ellipse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="20" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/MeasurementTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="53" selection-start="585" selection-end="585" vertical-scroll-proportion="0.0">
+        <state line="2" column="30" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/RectangleTest.java">
+    <entry file="file://$PROJECT_DIR$/src/Geometry/Shape.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="31" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0">
+        <state line="4" column="33" selection-start="95" selection-end="95" vertical-scroll-proportion="0.16901408">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/RoundToTwoDecimalPlacesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="39" selection-start="375" selection-end="375" vertical-scroll-proportion="0.5070422">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

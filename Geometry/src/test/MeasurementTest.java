@@ -21,10 +21,21 @@ public class MeasurementTest {
     public void testEquals() throws Exception {
 
         measurement = new Measurement(1, Unit.meter);
+        Measurement inFoot = new Measurement(3.2, Unit.foot);
+        Assert.assertEquals(measurement, inFoot);
 
         Assert.assertNotSame(measurement, null);
         Assert.assertNotSame(measurement, new Object());
-        Assert.assertNotSame(measurement, new Measurement(23,Unit.meter));
+        Assert.assertNotSame(measurement, new Measurement(23, Unit.meter));
+    }
+
+    @Test
+    public void testAddOfMeasurementsWithDifferentUnits() throws Exception {
+
+        measurement = new Measurement(10, Unit.meter);
+        Measurement sum = measurement.Add(new Measurement(3, Unit.foot));
+        Assert.assertEquals(sum, new Measurement(35, Unit.foot));
+        Assert.assertEquals(sum, new Measurement(10.937, Unit.meter));
     }
 
     @Test

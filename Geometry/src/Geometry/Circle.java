@@ -1,6 +1,6 @@
 package Geometry;
 
-public class Circle extends Shape{
+public class Circle extends Shape {
 
     private Measurement radius;
 
@@ -10,6 +10,6 @@ public class Circle extends Shape{
 
     @Override
     public Measurement Perimeter() {
-       return radius.Multiply(3.14).Multiply(2);
+        return radius.Multiply(3.14).Multiply(2);
     }
 }

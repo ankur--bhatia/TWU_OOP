@@ -15,6 +15,6 @@ public class CircleTest {
     @Test
     public void testPerimeter() throws Exception {
         circle = new Circle(new Measurement(7, Unit.meter));
-        Assert.assertEquals(new Measurement(43.96,Unit.meter), circle.Perimeter());
+        Assert.assertEquals(new Measurement(43.96, Unit.meter), circle.Perimeter());
     }
 }
