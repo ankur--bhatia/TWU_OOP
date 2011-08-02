@@ -71,7 +71,26 @@
     <favorites_list name="Geometry" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="Rectangle.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Geometry/Rectangle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="17" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RectangleTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/RectangleTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="19" selection-start="289" selection-end="289" vertical-scroll-proportion="0.31578946">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -87,12 +106,12 @@
         <option value="$PROJECT_DIR$/src/Geometry/Units.java" />
         <option value="$PROJECT_DIR$/src/Geometry/RoundOffNumber.java" />
         <option value="$PROJECT_DIR$/src/Geometry/RoundTwoDecimalPlaces.java" />
-        <option value="$PROJECT_DIR$/src/Geometry/Rectangle.java" />
         <option value="$PROJECT_DIR$/src/Geometry/RoundToTwoDecimalPlaces.java" />
         <option value="$PROJECT_DIR$/src/Geometry/Measurement.java" />
         <option value="$PROJECT_DIR$/src/Geometry/RoundedDecimal.java" />
         <option value="$PROJECT_DIR$/src/test/MeasurementTest.java" />
         <option value="$PROJECT_DIR$/src/test/RoundedDecimalTest.java" />
+        <option value="$PROJECT_DIR$/src/Geometry/Rectangle.java" />
         <option value="$PROJECT_DIR$/src/test/RectangleTest.java" />
       </list>
     </option>
@@ -167,6 +186,28 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Geometry" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Geometry" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Geometry" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -197,6 +238,10 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="test" />
       <recent name="Geometry" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test" />
+      <recent name="$PROJECT_DIR$/src/Geometry" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.MeasurementTest.testAddOfMeasurementsWithDifferentUnits">
@@ -536,7 +581,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="717" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Phing Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -551,7 +596,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24939074" sideWeight="0.67111856" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24939074" sideWeight="0.67111856" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32554257" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -634,9 +679,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/RoundedDecimalTest.java">
+    <entry file="file://$PROJECT_DIR$/src/Geometry/Rectangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="8" selection-start="128" selection-end="128" vertical-scroll-proportion="0.18421052">
+        <state line="10" column="17" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/RectangleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="19" selection-start="289" selection-end="289" vertical-scroll-proportion="0.31578946">
           <folding />
         </state>
       </provider>
