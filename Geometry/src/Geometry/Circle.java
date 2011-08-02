@@ -2,14 +2,14 @@ package Geometry;
 
 public class Circle extends Shape{
 
-    private double radius;
+    private Measurement radius;
 
-    public Circle(double radius) {
+    public Circle(Measurement radius) {
         this.radius = radius;
     }
 
     @Override
-    public double Perimeter() {
-       return 2 * radius * 22 / 7;
+    public Measurement Perimeter() {
+       return radius.Multiply(3.14).Multiply(2);
     }
 }

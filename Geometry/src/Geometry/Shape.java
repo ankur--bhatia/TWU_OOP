@@ -1,5 +1,5 @@
 package Geometry;
 
 public abstract class Shape {
-    public abstract double Perimeter();
+    public abstract Measurement Perimeter();
 }
