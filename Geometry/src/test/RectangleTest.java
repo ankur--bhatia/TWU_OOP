@@ -16,12 +16,6 @@ public class RectangleTest {
     }
 
     @Test
-    public void testCalculateArea()
-    {
-        Assert.assertEquals(120.0,rectangle.Area());
-    }
-
-    @Test
     public void testCalculatePerimeter()
     {
         Assert.assertEquals(44.0,rectangle.Perimeter());
@@ -31,7 +25,6 @@ public class RectangleTest {
     public void testCreateSquare()
     {
        Rectangle square =  Rectangle.CreateSquare(10);
-       Assert.assertEquals(100.0, square.Area());
        Assert.assertEquals(40.0, square.Perimeter());
     }
 
