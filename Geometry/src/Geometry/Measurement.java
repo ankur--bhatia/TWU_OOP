@@ -1,21 +1,11 @@
 package Geometry;
 
-import java.util.HashMap;
-import java.util.Map;
-
 public class Measurement {
 
     private double value;
     private final int roundOff = 2;
     private Unit unit;
-    private static Map<Unit, Double> conversionMapToFoot = initializeMap();
 
-    private static Map<Unit, Double> initializeMap() {
-        Map<Unit, Double> map = new HashMap<Unit, Double>();
-        map.put(Unit.meter, 3.2);
-        map.put(Unit.foot, 1.0);
-        return map;
-    }
 
     public Measurement(double value, Unit unit) {
         this.value = value;
@@ -23,12 +13,7 @@ public class Measurement {
     }
 
     public Measurement Add(Measurement rhs) {
-        double sumInFoot = value * ConversionFactorToFoot() + rhs.value * rhs.ConversionFactorToFoot();
-        return new Measurement(RoundToTwoDecimalPlaces.RoundOff(sumInFoot, roundOff), Unit.foot);
-    }
-
-    private double ConversionFactorToFoot() {
-        return conversionMapToFoot.get(unit);
+        return new Measurement(RoundToTwoDecimalPlaces.RoundOff(value  + rhs.value, roundOff), unit);
     }
 
 
@@ -47,8 +32,8 @@ public class Measurement {
 
         Measurement that = (Measurement) o;
 
-        double lhs = RoundToTwoDecimalPlaces.RoundOff(that.value * that.ConversionFactorToFoot(), roundOff);
-        double rhs = RoundToTwoDecimalPlaces.RoundOff(this.value * this.ConversionFactorToFoot(), roundOff);
+        double lhs = RoundToTwoDecimalPlaces.RoundOff(that.value, roundOff);
+        double rhs = RoundToTwoDecimalPlaces.RoundOff(this.value, roundOff);
         return Double.compare(lhs, rhs) == 0;
 
     }
