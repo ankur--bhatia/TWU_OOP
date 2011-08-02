@@ -1,7 +1,6 @@
 package Geometry;
 
-public class Rectangle
-{
+public class Rectangle extends Shape {
     private double length;
     private double width;
 
@@ -11,6 +10,7 @@ public class Rectangle
         this.width = width;
     }
 
+    @Override
     public double Perimeter()
     {
         return 2 * length + 2 * width;
